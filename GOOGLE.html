@@ -6,19 +6,19 @@
     </head>
     <header>
         <div id="top-nav">
-            <p><a href="https://about.google/?fg=1&utm_source=google-CA&utm_medium=referral&utm_campaign=hp-header">About</a></p>
-            <p><a href="https://store.google.com/CA?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-CA">Store</a></p>
-        
-                <p><a href="https://mail.google.com/mail/?tab=wm&ogbl">Gmail</a></p>
-                <p><a href="https://www.google.ca/imghp?hl=en&tab=wi&ogbl">Images</a></p>
-            <!--Square Array Button Needs to Go Here-->
-            <p>Sign In</p>
-            <!--"Sign In" likely needs to be a button-->
+            <p class="about"><a href="https://about.google/?fg=1&utm_source=google-CA&utm_medium=referral&utm_campaign=hp-header">About</a></p>
+            <p class="store"><a href="https://store.google.com/CA?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-CA">Store</a></p>
+            <p class="gmail"><a href="https://mail.google.com/mail/?tab=wm&ogbl">Gmail</a></p>
+            <p class="images"><a href="https://www.google.ca/imghp?hl=en&tab=wi&ogbl">Images</a></p>
+            <p class="sign-in"><a href="https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/">Sign In</a></p>
         </div>
     </header>
     <body>
+        <div id="space-above-logo">
+            <!--this is just the space above the logo that I'm using to create separation-->
+        </div>
         <div id="logo">
-            <img src="Assets/logo.png">
+            <img src="Assets/logo.png" class="logo">
         </div>
         <div id="search-bar">
             <form>
@@ -40,12 +40,12 @@
             <p>Canada</p>
         </div>
         <div id="bottom-nav-bar">
-            <p>Advertising</p>
-            <p>Business</p>
-            <p>How Search Works</p>
-            <p>Privacy</p>
-            <p>Terms</p>
-            <p>Settings</p>
+            <p class="advertising"><a href="https://www.google.com/intl/en_ca/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Advertising</a></p>
+            <p class="business"><a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1#?modal_active=none">Business</a></p>
+            <p class="how-search-works"><a href="https://google.com/search/howsearchworks/?fg=1">How Search Works</a></p>
+            <p class="privacy"><a href="https://policies.google.com/privacy?fg=1">Privacy</a></p>
+            <p class="terms"><a href="https://policies.google.com/terms?fg=1">Terms</a></p>
+            <p class="settings"><a href="https://www.google.com/preferences?hl=en">Settings</a></p>
         </div>
     </footer>
 </html>

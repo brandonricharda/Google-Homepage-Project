@@ -1,0 +1,109 @@
+/*
+    Top Nav Styling
+*/
+
+#top-nav {
+    display: grid;
+    grid-template-columns: 1.5fr 1.5fr 5fr 1.5fr 1.5fr 1.5fr;
+    grid-template-areas: "first second . third fourth fifth";
+    justify-items: center;
+}
+
+#top-nav > p {
+    font-family: arial;
+    font-size: 13px;
+}
+
+.about {
+    grid-area: first;
+}
+
+.store {
+    grid-area: second;
+}
+
+.gmail {
+    grid-area: third;
+}
+
+.images {
+    grid-area: fourth;
+}
+
+.sign-in {
+    grid-area: fifth;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/*
+    Main Logo Styling
+*/
+
+#logo {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: ". logo .";
+    justify-items: center;
+    padding-top: 109px;
+}
+
+.logo {
+    grid-area: logo;
+    width: 272px;
+}
+
+/*
+    Search Bar Styling
+*/
+
+/*
+    Ad Text Styling
+*/
+
+/*
+    Bottom Nav Styling
+*/
+
+#bottom-nav-bar {
+    display: grid;
+    grid-template-columns: 1.5fr 1.5fr 1.5fr 5fr 1.5fr 1.5fr 1.5fr;
+    grid-template-areas: "first second third . fourth fifth sixth";
+    justify-items: center;
+}
+
+#bottom-nav-bar > p {
+    font-family: arial;
+    font-size: 13px;
+}
+
+.advertising {
+    grid-area: first;
+}
+
+.business {
+    grid-area: second;
+}
+
+.how-search-works {
+    grid-area: third;
+}
+
+.privacy {
+    grid-area: fourth;
+}
+
+.terms {
+    grid-area: fifth;
+}
+
+.settings {
+    grid-area: sixth;
+}
