@@ -64,6 +64,30 @@ a:hover {
     Search Bar Styling
 */
 
+.search-area {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: ". search-bar .";
+    justify-items: center;
+    padding-top: 35px;
+}
+
+.search {
+    grid-area: search-bar;
+    width: 380px;
+    z-index: 3;
+    border: none;
+}
+
+.search-bg {
+    grid-area: search-bar;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    height: 44px;
+    width: 482px;
+    z-index: 1;
+}
+
 /*
     Ad Text Styling
 */
