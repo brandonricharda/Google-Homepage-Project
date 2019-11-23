@@ -57,7 +57,8 @@ a {
 
 .logo {
     grid-area: logo;
-    width: 272px;
+    min-width: 272px;
+    max-width: 272px;
 }
 
 /*
@@ -102,6 +103,7 @@ input {
     font-size: 14px;
     text-align: center;
     min-width: 150px;
+    max-width: 150px;
     background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
 }
 
@@ -115,10 +117,11 @@ input {
 
 #button-area {
     display: grid;
-    grid-template-columns: 3fr 1fr 1fr 3fr;
+    grid-template-columns: 4.5fr 1fr 1fr 4.5fr;
     grid-template-areas: ". button1 button2 .";
-    gap: 10px;
+    gap: 5px;
     margin-top: 10px;
+    justify-items: center;
 }
 
 #search-button {
@@ -136,7 +139,9 @@ input {
 #text-advertisement {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-areas: ". ad ."
+    white-space: nowrap;
+    grid-template-areas: ". ad .";
+    justify-items: center;
 }
 
 #ad-text {
@@ -159,6 +164,7 @@ input {
     grid-template-columns: 1.5fr 1.5fr 1.5fr 5fr 1.5fr 1.5fr 1.5fr;
     grid-template-areas: "first second third . fourth fifth sixth";
     justify-items: center;
+    white-space: nowrap;
 }
 
 #bottom-nav-bar > p {
