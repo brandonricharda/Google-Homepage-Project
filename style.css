@@ -156,6 +156,31 @@ input {
 }
 
 /*
+
+    Language Indicator Styling
+
+*/
+
+#google-language-sel {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    white-space: nowrap;
+    grid-template-areas: ". language .";
+    justify-items: center;
+}
+
+#language {
+    grid-area: language;
+    text-align: center;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+}
+
+#language-text:hover {
+    text-decoration: underline;
+}
+
+/*
     Bottom Nav Styling
 */
 
