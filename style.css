@@ -4,9 +4,14 @@
 
 #top-nav {
     display: grid;
-    grid-template-columns: 1.5fr 1.5fr 5fr 1.5fr 1.5fr 1.5fr;
+    grid-template-columns: 1.5fr 1.5fr 30fr 1.5fr 1.5fr 1.5fr;
     grid-template-areas: "first second . third fourth fifth";
     justify-items: center;
+    align-items: center;
+    white-space: nowrap;
+    gap: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 #top-nav > p {
@@ -32,6 +37,10 @@
 
 .sign-in {
     grid-area: fifth;
+    border: 1px solid #4285f4;
+    padding: 10px;
+    background-color: #4285f4;
+    border-radius: 3px;
 }
 
 a {
@@ -181,42 +190,80 @@ input {
 }
 
 /*
+
+    Country Indicator Section
+
+*/
+
+#country-indicator {
+    display: grid;
+    grid-template-columns: 1.5fr 1.5fr 1.5fr 30fr 1.5fr 1.5fr 1.5fr;
+    grid-template-areas: "country . . . . . .";
+    justify-items: center;
+    white-space: nowrap;
+    background-color: rgb(228, 228, 228);
+    gap: 10px;
+    color: rgba(0,0,0,.54);
+    padding-left: 10px;
+}
+
+#location {
+    grid-area: country;
+    font-family: arial, sans-serif;
+}
+
+/*
     Bottom Nav Styling
 */
 
 #bottom-nav-bar {
     display: grid;
-    grid-template-columns: 1.5fr 1.5fr 1.5fr 5fr 1.5fr 1.5fr 1.5fr;
+    grid-template-columns: 1.5fr 1.5fr 1.5fr 30fr 1.5fr 1.5fr 1.5fr;
     grid-template-areas: "first second third . fourth fifth sixth";
+    align-items: center;
     justify-items: center;
     white-space: nowrap;
+    gap: 10px;
+    background-color: rgb(228, 228, 228);
+    border-top: 1px solid rgb(128,128,120, .2);
 }
 
 #bottom-nav-bar > p {
-    font-family: arial;
+    font-family: arial, sans-serif;
     font-size: 13px;
 }
 
 .advertising {
     grid-area: first;
+    padding-left: 10px;
 }
 
 .business {
     grid-area: second;
+    padding-left: 10px;
 }
 
 .how-search-works {
     grid-area: third;
+    padding-left: 10px;
 }
 
 .privacy {
     grid-area: fourth;
+    padding-right: 10px;
 }
 
 .terms {
     grid-area: fifth;
+    padding-right: 10px;
 }
 
 .settings {
     grid-area: sixth;
+    padding-right: 10px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
 }
