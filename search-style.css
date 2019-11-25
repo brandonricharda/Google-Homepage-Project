@@ -1,0 +1,202 @@
+header {
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "logo bar ."
+                         ". nav .";
+    padding-top: 10px;
+    justify-items: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#logo {
+    grid-area: logo;
+    width: 70%;
+}
+
+#search-bar {
+    grid-area: bar;
+    border-radius: 24px;
+    border: 1px solid #dfe1e5;
+    outline: none;
+    height: 44px;
+    width: 100%;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+
+#nav-bar {
+    grid-area: nav;
+    width: 100%;
+    text-align: center;
+}
+
+#all {
+    display: inline;
+    font-family: arial, sans-serif;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#news {
+    display: inline;
+    font-family: arial, sans-serif;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#maps {
+    display: inline;
+    font-family: arial, sans-serif;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#videos {
+    display: inline;
+    font-family: arial, sans-serif;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#shopping {
+    display: inline;
+    font-family: arial, sans-serif;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#more {
+    display: inline;
+    font-family: arial, sans-serif;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#settings {
+    display: inline;
+    font-family: arial, sans-serif;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#tools {
+    display: inline;;
+    font-family: arial, sans-serif;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+/*
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 665px 1fr;
+    grid-template-areas: "logo bar .";
+    align-items: center;
+    justify-items: center;
+    padding-top: 10px;
+    gap: 10px;
+}
+
+#logo {
+    grid-area: logo;
+    max-width: 100px;
+    padding-left: 10px;
+}
+
+#search-bar {
+    grid-area: bar;
+    border-radius: 24px;
+    border: 1px solid #dfe1e5;
+    outline: none;
+    height: 44px;
+    width: 665px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+
+#nav-section {
+    display: grid;
+    grid-template-columns: 1fr 665px 1fr;
+    grid-template-areas: ". nav .";
+    align-items: center;
+    justify-items: center;
+    width: 100%;
+}
+
+#nav-bar {
+    grid-area: nav;
+}
+
+#all {
+    display: inline;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: arial, sans-serif;
+}
+
+#news {
+    display: inline;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: arial, sans-serif;
+}
+
+#maps {
+    display: inline;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: arial, sans-serif;
+}
+
+#videos {
+    display: inline;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: arial, sans-serif;
+}
+
+#shopping {
+    display: inline;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: arial, sans-serif;
+}
+
+#more {
+    display: inline;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: arial, sans-serif;
+}
+
+#settings {
+    display: inline;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: arial, sans-serif;
+}
+
+#tools {
+    display: inline;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: arial, sans-serif;
+}
+
+#results-number {
+    display: grid;
+    grid-template-columns: 1fr 665px 1fr;
+    grid-template-areas: ". results ."
+}
+
+#results-no {
+    grid-area: results;
+    font-family: arial, sans-serif;
+}
+
+*/
