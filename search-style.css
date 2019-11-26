@@ -1,13 +1,13 @@
 header {
     display: grid;
     grid-template-columns: 1fr 5fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr .7fr;
     grid-template-areas: "logo bar ."
                          ". nav .";
     padding-top: 10px;
     justify-items: center;
     align-items: center;
-    gap: 10px;
+    width: 100%;
 }
 
 #logo {
@@ -33,6 +33,8 @@ header {
     list-style: none;
     margin: 0;
     padding: 0;
+    width: 100%;
+    white-space: nowrap;
 }
 
 #all {
@@ -89,6 +91,52 @@ header {
     font-family: arial, sans-serif;
     padding-left: 5px;
     padding-right: 5px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+
+    grid-template-areas: ". results-number ."
+                         ". search-result-1 ."
+                         ". people-also-ask ."
+                         ". search-result-2 ."
+                         ". search-result-3 ."
+                         ". related-search ."
+                         ". searches-related-to ."
+                         ". logo-page-number .";
+}
+
+#results-number {
+    grid-area: results-number;
+}
+
+#search-result-1 {
+    grid-area: search-result-1;
+}
+
+#people-also-ask {
+    grid-area: people-also-ask;
+}
+
+#search-result-2 {
+    grid-area: search-result-2;
+}
+
+#search-result-3 {
+    grid-area: search-result-3;
+}
+
+#related-search {
+    grid-area: related-search;
+}
+
+#searches-related-to {
+    grid-area: searches-related-to;
+}
+
+#logo-page-numbers {
+    grid-area: logo-page-number;
 }
 
 /*
