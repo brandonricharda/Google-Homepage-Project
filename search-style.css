@@ -109,10 +109,95 @@ main {
 
 #results-number {
     grid-area: results-number;
+    font-family: arial, sans-serif;
+    font-size: 13px;
 }
 
 #search-result-1 {
     grid-area: search-result-1;
+}
+
+#search-result-1 > H2 > a {
+    text-decoration: none;
+    color: blue;
+    font-family: arial, sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+#search-result-1 > H2 > a:hover {
+    text-decoration: underline;
+}
+
+#search-result-1 > H3 {
+    font-family: arial, sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    color: green;
+}
+
+#search-result-1 > p {
+    font-family: arial, sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+#search-result-2 {
+    grid-area: search-result-1;
+}
+
+#search-result-2 > H2 > a {
+    text-decoration: none;
+    color: blue;
+    font-family: arial, sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+#search-result-2 > H2 > a:hover {
+    text-decoration: underline;
+}
+
+#search-result-2 > H3 {
+    font-family: arial, sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    color: green;
+}
+
+#search-result-2 > p {
+    font-family: arial, sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+#search-result-3 {
+    grid-area: search-result-1;
+}
+
+#search-result-3 > H2 > a {
+    text-decoration: none;
+    color: blue;
+    font-family: arial, sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+#search-result-3 > H2 > a:hover {
+    text-decoration: underline;
+}
+
+#search-result-3 > H3 {
+    font-family: arial, sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    color: green;
+}
+
+#search-result-3 > p {
+    font-family: arial, sans-serif;
+    font-weight: normal;
+    font-size: 14px;
 }
 
 #people-also-ask {
