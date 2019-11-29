@@ -202,6 +202,8 @@ main {
 
 #people-also-ask {
     grid-area: people-also-ask;
+    border: 1px solid #e5e5e5;
+    border-radius: 6px;
 }
 
 #search-result-2 {
@@ -224,37 +226,66 @@ main {
     grid-area: logo-page-number;
 }
 
-#people-also-ask {
-    border: 1px solid #e5e5e5;
-    border-radius: 6px;
-}
-
 #ppa-content > H2 {
     font-family: arial, sans-serif;
     font-weight: normal;
-    padding: 10px;
+    padding: 15px;
 }
 
 #first-ppa > H3 {
     font-family: arial, sans-serif;
     font-weight: normal;
-    padding: 10px;
+    padding: 15px;
 }
 
 #second-ppa > H3 {
     font-family: arial, sans-serif;
     font-weight: normal;
-    padding: 10px;
+    padding: 15px;
 }
 
 #third-ppa > H3 {
     font-family: arial, sans-serif;
     font-weight: normal;
-    padding: 10px;
+    padding: 15px;
 }
 
 #first-ppa, #second-ppa, #third-ppa {
     border-top: 1px solid #e5e5e5;
+}
+
+#related-search {
+    border: 1px solid #e5e5e5;
+    border-radius: 6px;
+}
+
+#related-search > p {
+    font-family: arial, sans-serif;
+    font-weight: normal;
+    padding-left: 15px;
+}
+
+#related-search > H2 {
+    font-family: arial, sans-serif;
+    font-weight: normal;
+    padding-left: 15px;
+}
+
+#icons {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    justify-items: center;
+}
+
+#labels {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    justify-items: center; 
+}
+
+#labels > p {
+    font-family: arial, sans-serif;
+    font-weight: normal;  
 }
 
 /*
