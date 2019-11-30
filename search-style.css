@@ -158,6 +158,39 @@ main {
     text-decoration: underline;
 }
 
+#labels > p > a {
+    text-decoration: none;
+    color: blue;
+    font-family: arial, sans-serif;
+    font-weight: normal;
+}
+
+#labels > p > a:hover {
+    text-decoration: underline;
+}
+
+#searches-related-to > ul > li > a {
+    text-decoration: none;
+    color: blue;
+    font-family: arial, sans-serif;
+    font-weight: normal;
+}
+
+#bottom-menu > ul > li > a {
+    text-decoration: none;
+    color: black;
+    font-family: arial, sans-serif;
+    font-weight: normal;
+}
+
+#bottom-menu > ul > li > a:hover {
+    text-decoration: underline;
+}
+
+#searches-related-to > ul > li > a:hover {
+    text-decoration: underline;
+}
+
 #search-result-2 > H3 {
     font-family: arial, sans-serif;
     font-weight: normal;
@@ -303,4 +336,71 @@ main {
     display: grid;
     grid-template-columns: 1fr 1fr;
     white-space: nowrap;
+    font-family: arial, sans-serif;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "first second"
+                         "third fourth";
+    white-space: nowrap;
+    gap: 10px;
+    background-color: rgb(228, 228, 228);
+    border-top: 1px solid rgb(128,128,120, .2);
+    margin-top: 20px;
+}
+
+#location-stuff {
+    grid-area: first;
+    margin-top: 10px;
+}
+
+#location-stuff > H3 {
+    display: inline;
+    font-family: arial, sans-serif;
+    border-right: solid 1px black;
+    padding-right: 10px;
+    padding-left: 30px;
+}
+
+#location-stuff > p {
+    display: inline;
+    font-family: arial, sans-serif;
+    padding-left: 10px;
+}
+
+#bottom-menu {
+    grid-area: third;
+    padding-left: 30px;
+}
+
+#bottom-menu > ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+#help {
+    display: inline;
+    font-family: arial, sans-serif;
+}
+
+#feedback {
+    display: inline;
+    padding-left: 20px;
+    font-family: arial, sans-serif;
+}
+
+#privacy {
+    display: inline;
+    padding-left: 20px;
+    font-family: arial, sans-serif;
+}
+
+#terms {
+    display: inline;
+    padding-left: 20px;
+    font-family: arial, sans-serif;
 }
