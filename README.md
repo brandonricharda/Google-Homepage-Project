@@ -1,1 +1,3 @@
-In this project, my goal is to recreate the Google homepage using HTML and CSS. It obviously won't behave like the Google page functionally but it should resemble it pretty closely. We'll do our best!
+This was my solution to The Odin Project's Google Homepage recreation assignment:
+
+https://www.theodinproject.com/courses/web-development-101/lessons/html-css
